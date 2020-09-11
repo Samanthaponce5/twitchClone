@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
+import GoogleAuth from './GoogleAuth'
 const Navabar=()=>{
     return(
     <div className='ui secondary pointing menu'>
@@ -11,6 +11,7 @@ const Navabar=()=>{
         <Link to='/' className='item'>
             All Sreama
         </Link>
+        <GoogleAuth/>
         </div>
         </div>
     )
