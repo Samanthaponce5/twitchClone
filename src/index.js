@@ -5,7 +5,6 @@ import {Provider} from 'react-redux'
 import reduxThunk from 'redux-thunk'
 import reducers from './reducers'
 import App from './components/App'
-const NodeMediaServer = require('node-media-server');
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
